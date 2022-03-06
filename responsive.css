@@ -674,6 +674,15 @@
       top: 195px;
       left: -249px;
     }
-
-
 }
+
+@media all and (max-width: 375px) {
+      .bg {
+            width: 230%;
+            position: absolute;
+            top: 110px;
+            left: -249px;
+          }   
+}
+
+
