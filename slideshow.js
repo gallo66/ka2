@@ -60,7 +60,7 @@ const imgSet = ()=>{
             a = roopindex;
         }else if(b !== roopindex && a !== roopindex && b === 0){
             b = roopindex;
-        }else if(c !== roopindex && a !== roopindex && b !== roopindex && c === 0){
+        }else if(c !== roopindex && a !== roopindex && b !== roopindex && c === 0 && roopindex !== 3){
             c = roopindex;
         }else if(d !== roopindex && a !== roopindex && b !== roopindex && c !== roopindex && d === 0){
             d = roopindex;
