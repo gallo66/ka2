@@ -188,7 +188,7 @@ $(function(){
         $(this).hide();
         $('#userage').show(); 
         $('#userage').css('display','inline-block'); 
-        $('.container').css('width','110%');
+        $('.container').css('width','115%');
         $('.video-container').show();
 
         $('.comBg').text(comeadd);
