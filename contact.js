@@ -189,6 +189,7 @@ $(function(){
         $('#userage').show(); 
         $('#userage').css('display','inline-block'); 
         $('.container').css('width','115%');
+        $('.top-comment').css('width','115%');
         $('.video-container').show();
 
         $('.comBg').text(comeadd);
