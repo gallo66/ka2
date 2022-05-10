@@ -13,15 +13,11 @@ let notgap = 34;
 let gap = 12;
 let yaer = 46;
 
-const init = ()=>{
-    
-    $(function() {
-        $('html,body').animate({ scrollTop: 0 },1);
-    });
-    
-}
-
-init();
+window.onload = ()=> {
+    $(function(){
+        $('html,body').scrollTop(0);
+    })
+ };
 
 
 const ageSet = ()=>{
