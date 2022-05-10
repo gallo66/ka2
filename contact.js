@@ -186,7 +186,8 @@ $(function(){
         for(i = 0; i < 500;i++){
          comeadd += usercom;
         }
-
+        
+        $('html,body').scrollTop(0);
         $('body').css('background-color','#034959');
         $('#toptitle').hide();
         $('#usernameTop').show();
